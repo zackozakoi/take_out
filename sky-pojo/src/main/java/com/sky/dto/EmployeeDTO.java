@@ -4,7 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-@Data
+@Data//前端提交的数据和实体类中对应的属性差别较大时，用DTO类封装数据
 public class EmployeeDTO implements Serializable {
 
     private Long id;
